@@ -1,0 +1,16 @@
+[2026-11-23T06:08:31Z] === ENRICH ITERATION 1 START | repo=block/goose-mobile-demo-personal-shopper sha=bb6876e5 ===
+[2026-11-23T06:08:31Z] [iter=1] PHASE START: enrich repo=block/goose-mobile-demo-personal-shopper sha=bb6876e5 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/bb6876e5-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/bb6876e55df765371b75df8ee07ff7a3dbb49f81.nq.gz
+[2026-11-23T06:08:31Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-23T06:08:32Z] [iter=1] AST store loaded triples=182335 load_secs=2 mem_mb=358 MB
+[2026-11-23T06:08:32Z] [iter=1] Step 2: Finding LSP targets mem_mb=358 MB
+[2026-11-23T06:08:33Z] [iter=1] LSP targets found call_sites=491 imports=205 extends=0 implements=0 secs=0
+[2026-11-23T06:08:33Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=358 MB
+[2026-11-23T06:08:34Z] [iter=1] Position index built positions=12898 nodes_with_types=14827 secs=1 mem_mb=358 MB
+[2026-11-23T06:08:34Z] [iter=1] Step 3: Starting LSP resolution mem_mb=358 MB already_completed_types=[] already_completed_files=0
+[2026-11-23T06:08:34Z] [iter=1] Resolving target type target_type=call_site count=491
+[2026-11-23T06:08:52Z] [iter=1] Target type resolved target_type=call_site resolved=276 errors=0 secs=18 mem_mb=358 MB
+[2026-11-23T06:08:52Z] [iter=1] Resolving target type target_type=import_statement count=205
+[2026-11-23T06:08:55Z] [iter=1] Target type resolved target_type=import_statement resolved=76 errors=0 secs=3 mem_mb=358 MB
+[2026-11-23T06:09:05Z] [iter=1] Step 5: Writing final enrichment file triples=9532
+[2026-11-23T06:09:05Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/bb6876e55df765371b75df8ee07ff7a3dbb49f81.nq.gz size_kb=183
+[2026-11-23T06:09:05Z] [iter=1] PHASE END: enrich elapsed_s=34 elapsed_min=0.6 total_triples=9532
