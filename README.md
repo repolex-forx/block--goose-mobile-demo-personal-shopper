@@ -38,6 +38,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── ast
 │   │   └── bb6876e55df765371b75df8ee07ff7a3dbb49f81
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── bb6876e55df765371b75df8ee07ff7a3dbb49f81.nq.gz
 │   └── repolex
 │       └── bb6876e55df765371b75df8ee07ff7a3dbb49f81
 │           └── chunk-001.nq.gz
@@ -125,6 +127,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── bb6876e55df765371b75df8ee07ff7a3dbb49f81.nq.gz
 ├── filetree
 │   └── bb6876e55df765371b75df8ee07ff7a3dbb49f81.nq.gz
 ├── issue
@@ -134,7 +138,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 87 files
+15 directories, 89 files
 ```
 
 | Directory | What it contains |
@@ -155,4 +159,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [block/goose-mobile-demo-personal-shopper](https://github.com/block/goose-mobile-demo-personal-shopper)
 
 ---
-*Parsed on 2026-11-09 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-23 by [repolex](https://repolex.ai)*
