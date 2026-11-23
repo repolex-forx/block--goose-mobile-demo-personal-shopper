@@ -270,7 +270,8 @@
           "githubRepo": "cpython",
           "source": "stdlib:python"
         }
-      ]
+      ],
+      "dep": "dep/bb6876e55df765371b75df8ee07ff7a3dbb49f81.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
